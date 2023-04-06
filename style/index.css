@@ -1,0 +1,11 @@
+@import url('../blocks/page/page.css');
+@import url('../vendor/fonts/fonts.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__contacts/header__contacts.css');
+@import url('../blocks/header/__phone/header__phone.css');
+@import url('../blocks/header/__phone-desc/header__phone-desc.css');
+@import url('../blocks/header/__menu/header__menu.css');
+@import url('../blocks/header/__btn-login/header__btn-login.css');
+@import url('../blocks/header/__btn-connect/header__btn-connect.css');

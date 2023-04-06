@@ -1,0 +1,31 @@
+.header__btn-login {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #44803F;
+
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.header__btn-login::before {
+    content: url('../../../images/arrow.svg');
+    display: block;
+    width: 30px;
+    height: 24px;
+}
+
+.header__btn-login:hover {
+    cursor: pointer;
+    color: #FBDD48;
+}
+
+.header__btn-login:hover::before {
+    content: url('../../../images/arrow_hover.svg');
+}

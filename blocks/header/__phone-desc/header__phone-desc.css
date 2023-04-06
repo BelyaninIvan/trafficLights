@@ -1,0 +1,9 @@
+.header__phone-desc {
+    margin: 0;
+    margin-top: 2px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4C4A5A;
+}

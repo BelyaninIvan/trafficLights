@@ -1,0 +1,20 @@
+.header__btn-connect {
+    margin: 0;
+    padding: 12px 32px 12px 20px;
+    border: 0;
+    background: #FFDB06;
+    clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0% 0%);
+    border-radius: 0px;
+
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #44803F;
+
+    transition: all 0.3s ease-in;
+}
+
+.header__btn-connect:hover {
+    background: #FBDD48;
+    cursor: pointer;
+}
