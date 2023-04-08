@@ -1,0 +1,8 @@
+.promo__stats-banner {
+    box-sizing: border-box;
+    padding: 10px 20px;
+    max-width: 335px;
+    width: 100%;
+
+    background: #44803F;
+}

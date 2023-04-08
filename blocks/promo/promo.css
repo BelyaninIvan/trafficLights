@@ -1,0 +1,42 @@
+.promo {
+    max-width: 1920px;
+    width: 100%;
+    min-height: 768px;
+    margin: 0 auto;
+    gap: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    position: relative;
+
+    background: linear-gradient(99.09deg, rgba(73, 70, 41, 0.75) 0%, rgba(68, 128, 63, 0.75) 100%), url('../../images/BGimage.png') no-repeat center;
+    overflow: hidden;
+}
+
+.promo::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 589px;
+    height: 589px;
+    background: #FF5A33;
+    opacity: 0.2;
+    filter: blur(100px);
+    transform: translate(50%, 50%);
+}
+
+.promo::after {
+    content: '';
+    position: absolute;
+    left: 252px;
+    top: 0;
+    width: 501px;
+    height: 501px;
+    background: #FFDB06;
+    opacity: 0.2;
+    filter: blur(100px);
+    transform: translateY(-50%);
+}

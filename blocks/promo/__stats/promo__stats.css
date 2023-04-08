@@ -1,0 +1,9 @@
+.promo__stats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 757px;
+    width: 100%;
+}

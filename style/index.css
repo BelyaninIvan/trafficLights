@@ -1,6 +1,8 @@
 @import url('../blocks/page/page.css');
 @import url('../vendor/fonts/fonts.css');
 
+/* ----------Header---------- */
+
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__contacts/header__contacts.css');
@@ -9,3 +11,14 @@
 @import url('../blocks/header/__menu/header__menu.css');
 @import url('../blocks/header/__btn-login/header__btn-login.css');
 @import url('../blocks/header/__btn-connect/header__btn-connect.css');
+
+/* ----------Promo---------- */
+@import url('../blocks/promo/promo.css');
+@import url('../blocks/promo/__title/promo__title.css');
+@import url('../blocks/promo/__stats/promo__stats.css');
+@import url('../blocks/promo/__stats-item/promo__stats-item.css');
+@import url('../blocks/promo/__stats-number/promo__stats-number.css');
+@import url('../blocks/promo/__stats-desc/promo__stats-desc.css');
+@import url('../blocks/promo/__stats-banner/promo__stats-banner.css');
+@import url('../blocks/promo/__stats-banner-text/promo__stats-banner-text.css');
+@import url('../blocks/promo/__btn/promo__btn.css');
