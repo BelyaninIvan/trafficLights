@@ -1,0 +1,39 @@
+.transportation__item-title {
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FFDB06;
+}
+
+.transportation__item-title::after {
+    content: '?';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #44803F;
+
+    border: 1px solid #44803F;
+    border-radius: 50%;
+} 
+
+.transportation__item-title::before {
+    content: url('../../../images/transportation-line.svg');
+    width: 109px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -10px;
+}

@@ -1,0 +1,18 @@
+.transportation__promo {
+    max-width: 1172px;
+    width: 100%;
+    position: relative;
+
+    box-sizing: border-box;
+    padding: 36px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+    z-index: 1;
+    background-color: #F4F4F4;
+    background-image: url('../../images/line.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+}

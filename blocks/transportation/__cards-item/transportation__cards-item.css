@@ -1,0 +1,28 @@
+.transportation__cards-item {
+    margin: 0;
+    list-style-type: none;
+    padding: 36px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    
+    max-width: 372px;
+    min-height: 356px;
+    width: 100%;
+
+    background-color: #F4F4F4;
+}
+
+.transportation__cards-item::before {
+    content: url('../../../images/line.svg');
+    width: 332px;
+    height: 487px;
+    position: absolute;
+    bottom: 0;
+    right: -25%;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(90deg);
+}

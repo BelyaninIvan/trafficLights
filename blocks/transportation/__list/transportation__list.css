@@ -1,0 +1,10 @@
+.transportation__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    max-width: 870px;
+    column-gap: 16px;
+
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,35 @@
+.promo-video__dwl-button {
+    margin: 0;
+    padding: 24px 60px 24px 44px;
+    border: 0;
+
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+
+    background: #FFDB06;
+    clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0% 0%);
+    border-radius: 0px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #44803F;
+
+    transition: all 0.3s ease-in;
+}
+
+.promo-video__dwl-button:hover {
+    background: #FBDD48;
+    cursor: pointer;
+}
+
+.promo-video__dwl-button::after {
+    content: url('../../../images/pdf.png');
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
+}

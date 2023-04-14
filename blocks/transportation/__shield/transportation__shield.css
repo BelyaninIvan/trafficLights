@@ -1,0 +1,9 @@
+.transportation__shield {
+    display: block;
+    position: absolute;
+
+    width: 315px;
+    height: 323px;
+    top: 48px;
+    right: -40px;
+}

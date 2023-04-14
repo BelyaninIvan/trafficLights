@@ -2,7 +2,6 @@
 @import url('../vendor/fonts/fonts.css');
 
 /* ----------Header---------- */
-
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__contacts/header__contacts.css');
@@ -22,3 +21,28 @@
 @import url('../blocks/promo/__stats-banner/promo__stats-banner.css');
 @import url('../blocks/promo/__stats-banner-text/promo__stats-banner-text.css');
 @import url('../blocks/promo/__btn/promo__btn.css');
+
+/* ----------transportation---------- */
+@import url('../blocks/transportation/transportation.css');
+@import url('../blocks/transportation/__promo/transportation__promo.css');
+@import url('../blocks/transportation/__title/transportation__title.css');
+@import url('../blocks/transportation/__list-name/transportation__list-name.css');
+@import url('../blocks/transportation/__list/transportation__list.css');
+@import url('../blocks/transportation/__list-item/transportation__list-item.css');
+@import url('../blocks/transportation/__item-title/transportation__item-title.css');
+@import url('../blocks/transportation/__item-desc/transportation__item-desc.css');
+@import url('../blocks/transportation/__shield/transportation__shield.css');
+
+@import url('../blocks/transportation/__cards/transportation__cards.css');
+@import url('../blocks/transportation/__cards-item/transportation__cards-item.css');
+@import url('../blocks/transportation/__cards-title/transportation__cards-title.css');
+@import url('../blocks/transportation/__cards-list-description/transportation__cards-list-description.css');
+@import url('../blocks/transportation/__cards-description/transportation__cards-description.css');
+@import url('../blocks/transportation/__cards-image/transportation__cards-image.css');
+
+/* ----------promo-video---------- */
+@import url('../blocks/promo-video/promo-video.css');
+@import url('../blocks/promo-video/__title/promo-video__title.css');
+@import url('../blocks/promo-video/__subtitle/promo-video__subtitle.css');
+@import url('../blocks/promo-video/__play-button/promo-video__play-button.css');
+@import url('../blocks/promo-video/__dwl-button/promo-video__dwl-button.css');

@@ -1,0 +1,11 @@
+.transportation__cards-title {
+    margin: 0;
+    padding: 0;
+    max-width: 300px;
+    width: 100%;
+
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 36px;
+    color: #4C4A5A;
+}
