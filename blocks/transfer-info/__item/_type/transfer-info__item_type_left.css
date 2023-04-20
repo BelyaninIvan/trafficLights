@@ -1,0 +1,5 @@
+.transfer-info__item_type_left {
+    text-align: left;
+    align-items: start;
+    background: linear-gradient(67.46deg, rgba(73, 70, 41, 0.54) 0%, rgba(68, 128, 63, 0.9) 100%), url('../../../../images/transfer-2.jpg') no-repeat center;
+}

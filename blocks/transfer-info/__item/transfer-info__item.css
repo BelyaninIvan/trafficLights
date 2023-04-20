@@ -1,0 +1,10 @@
+.transfer-info__item {
+    padding: 64px;
+    box-sizing: border-box;
+    min-height: 592px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+    background: linear-gradient(67.46deg, rgba(73, 70, 41, 0.54) 0%, rgba(68, 128, 63, 0.9) 100%), url('../../../images/transfer-1.jpg') no-repeat center;
+}

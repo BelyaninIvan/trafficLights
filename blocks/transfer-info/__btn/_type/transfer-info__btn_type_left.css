@@ -1,0 +1,5 @@
+.transfer-info__btn_type_left {
+    margin-top: 204px;
+    clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0% 0%);
+    padding: 24px 60px 24px 44px;
+}
